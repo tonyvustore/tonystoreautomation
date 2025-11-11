@@ -1,0 +1,56 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+coverage/
+dist/
+build/
+.next/
+.out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files (keep examples)
+.env
+.env.*
+!.env.example
+!.env.schema
+
+# Logs
+logs/
+*.log
+*.log.*
+yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Temp/cache
+.tmp/
+.tmp/**
+.temp/
+.cache/
+*.pid
+*.seed
+*.pid.lock
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Python (if any automation uses Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Vercel build artifacts
+.vercel
+
+# Misc
+*.swp
+*.swo

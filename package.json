@@ -1,0 +1,21 @@
+{
+  "name": "vendure-automations",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "lint": "tsc --noEmit",
+    "build": "tsc && cp ./printify-product-mapping.csv ./dist/ || true"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.16",
+    "dotenv": "^17.2.3",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
