@@ -4,10 +4,6 @@
   ],
   "routes": [
     { "src": "/api/fulfill-orders", "dest": "api/fulfill-orders.ts" },
-    { "src": "/api/printify-webhook", "dest": "api/printify-webhook.ts" },
-    { "src": "/api/cross-sells", "dest": "api/cross-sells.ts" },
-    { "src": "/api/cross-sells-verify", "dest": "api/cross-sells-verify.ts" },
-    { "src": "/api/upsell", "dest": "api/upsell.ts" },
-    { "src": "/api/upsell-verify", "dest": "api/upsell-verify.ts" }
+    { "src": "/api/printify-webhook", "dest": "api/printify-webhook.ts" }
   ]
 }

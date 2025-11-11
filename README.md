@@ -2,6 +2,8 @@
 
 Serverless automation (designed for Vercel) that logs into the Vendure admin API, finds orders ready to be fulfilled, optionally creates fulfillments, and reports progress via Telegram.
 
+Note: Cross-sell/upsell endpoints have been moved to `recommendations/`, and GMC (Google Merchant Center) sync has been moved to `gmc/` as separate repos. This folder now only contains Printify fulfillment logic and related webhook.
+
 ## Features
 
 - Runs as a Vercel serverless function (`api/fulfill-orders.ts`).
